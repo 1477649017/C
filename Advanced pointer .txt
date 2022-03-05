@@ -98,5 +98,13 @@ int main() {
 	int sz2 = sizeof(arr[0]) / sizeof(arr[0][0]);
 	
 	printf1(arr,sz1,sz2);
+
+                int a = 0;
+	int b = 0;
+	int sum = 0;
+	scanf("%d %d", &a, &b);
+	sum = a + b;
+	printf("%d\n", sum);
+	printf("%d\n", sizeof(long double));
 	return 0;
 }
